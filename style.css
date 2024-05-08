@@ -1,0 +1,111 @@
+  *{margin: 0;
+  padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+}
+.title{
+  text-align: center;
+  margin: 15px 0;
+  font-size: 55px;
+  color: red;
+  text-shadow: 6px 6px 15px green;
+}
+.form{
+  margin-bottom: 25px;
+}
+.form input {
+  margin: 0 10px;
+  font-size: 25px;
+}
+.submit{
+  background-color: blue;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: white;
+}
+  body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  h1{
+    margin-top: 8px;
+  }
+  p{
+    margin-top: 4px;
+  }
+  .pokemon {
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  .flip-card {
+    box-shadow: 0 0 3px 5px gray;
+      margin: 8px;
+    background-color: transparent;
+    width: 220px;
+    height: 310px;
+    perspective: 1000px;
+    
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  .flip-card-front img {
+      width: 200px;
+      height: 200px;
+  }
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .btnImg{
+    margin-top:5px ;
+      background-color: black;
+      color: white;
+      position: absolute;
+      bottom: 1px;
+      right: 1px;
+      width: 80px;
+      font-size: 20px;
+      padding: 5px;
+      border-radius: 10px;
+  }
+  .btnImg:hover{
+    background-color: blue;
+  }
+  #btn{
+      margin-top: 50px;
+      width: 280px;
+      font-size: 25px;
+      padding:10px  5px; 
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+  }
