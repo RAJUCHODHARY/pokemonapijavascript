@@ -31,6 +31,7 @@ form{
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      background: black;
   }
   h1{
     margin-top: 8px;
@@ -79,8 +80,8 @@ form{
   }
   
   .flip-card-front {
-    background: linear-gradient(orangered,white,green);
-    color: black;
+    background-color: black;
+    color: white;
   }
   .flip-card-front img {
     border-radius: 10px;
@@ -88,7 +89,7 @@ form{
       height: 200px;
   }
   .flip-card-front:hover{
-    background: linear-gradient(rgb(23, 137, 36),rgb(194, 225, 22),rgb(215, 129, 143));
+    background: linear-gradient(orangered,white,green);
   }
  
   .flip-card-back {
